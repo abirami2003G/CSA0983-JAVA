@@ -1,4 +1,4 @@
-// print prime numbers
+2// print prime numbers
 import java.util.*;
 
 class primelimit
