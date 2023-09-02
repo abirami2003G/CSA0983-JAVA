@@ -1,0 +1,26 @@
+Scanner n = new Scanner(System.in);
+
+    int num;
+    int ctr=2;
+    boolean prime = true;
+
+    System.out.print("Enter a number : ");
+    num = n.nextInt();
+
+    while(ctr<num){
+
+        if(num%ctr==0){
+
+            prime = false
+
+
+    break;
+}
+        ctr++;
+    }
+
+    if (prime) {
+        System.out.println("PRIME");
+    } else {
+        System.out.println("COMPOSITE");
+    }
